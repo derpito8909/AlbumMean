@@ -17,7 +17,7 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => console.log("Ejecutando en el puerto " + port));
 // conexion con Mongo
 mongoose
-	.connect("mongodb://localhost/scrum", {
+	.connect("mongodb://localhost/albumMean", {
 		useNewUrlParser: true,
 		useFindAndModify: false,
 		useCreateIndex: true,
